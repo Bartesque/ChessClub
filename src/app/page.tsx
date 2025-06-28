@@ -30,8 +30,8 @@ export default function Home() {
             we love teaching new players the fundamentals of chess!</strong>
           </p>
           <p>
-            Whether you've never moved a piece before or you're an experienced player looking for 
-            regular games, you'll find a place at our club. Our Tuesday meetings feature casual 
+            Whether you&rsquo;ve never moved a piece before or you&rsquo;re an experienced player looking for
+            regular games, you&rsquo;ll find a place at our club. Our Tuesday meetings feature casual
             games, beginner instruction, position analysis, and plenty of opportunities to improve 
             your skills in a relaxed, supportive environment.
           </p>
