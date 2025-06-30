@@ -44,7 +44,7 @@ export const kingOnEdge: ChessBoardData = {
     <div className="space-y-3">
       <p>The king on the edge has <strong>5 possible moves</strong> - more than a corner, but still limited.</p>
       <p><strong>Pattern recognition:</strong> Corner = 3 moves, Edge = 5 moves, Center = 8 moves</p>
-      <p>This is why we say: <em>"A king in the center is a strong king!"</em></p>
+      <p>This is why we say: <em>&quot;A king in the center is a strong king!&quot;</em></p>
     </div>
   )
 };
@@ -61,7 +61,7 @@ export const kingCannotMoveThere: ChessBoardData = {
     <div className="space-y-3">
       <p>The blue rook controls the entire e-file. The king <strong>cannot move to e3 or e5</strong> because that would be moving into check!</p>
       <p><strong>Golden rule:</strong> The king can never move to a square where it would be captured.</p>
-      <p>This limits the king's options and is fundamental to understanding check and checkmate.</p>
+      <p>This limits the king&apos;s options and is fundamental to understanding check and checkmate.</p>
     </div>
   )
 };

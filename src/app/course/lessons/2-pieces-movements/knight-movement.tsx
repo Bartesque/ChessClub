@@ -12,7 +12,7 @@ export const knightBasicMovement: ChessBoardData = {
       <p>The <strong>knight</strong> is the most unusual piece on the board!</p>
       <p><strong>Movement rule:</strong> The knight moves in an L-shape - exactly 2 squares in one direction, then 1 square at a right angle.</p>
       <p>From e4, this knight has <strong>8 possible moves</strong>. Each move forms a perfect L!</p>
-      <p><em>Think: "2 squares + 1 square at a right angle = L-shape"</em></p>
+      <p><em>Think: &quot;2 squares + 1 square at a right angle = L-shape&quot;</em></p>
     </div>
   )
 };
@@ -78,7 +78,7 @@ export const knightFromCorner: ChessBoardData = {
     <div className="space-y-3">
       <p>From the corner, this knight only has <strong>2 possible moves</strong>!</p>
       <p>Compare this to the center where a knight has 8 moves.</p>
-      <p><strong>Knight principle:</strong> "A knight on the rim is dim" - keep knights centralized!</p>
+      <p><strong>Knight principle:</strong> &quot;A knight on the rim is dim&quot; - keep knights centralized!</p>
       <p><em>Knights are strongest in the center, weakest on the edges and corners.</em></p>
     </div>
   )
@@ -95,7 +95,7 @@ export const knightFromEdge: ChessBoardData = {
     <div className="space-y-3">
       <p>From the edge, this knight has <strong>4 possible moves</strong>.</p>
       <p><strong>Pattern:</strong> Corner = 2 moves, Edge = 3-4 moves, Center = 8 moves</p>
-      <p>This is why we say: <em>"Centralize your knights!"</em></p>
+      <p>This is why we say: <em>&quot;Centralize your knights!&quot;</em></p>
       <p>Remember: Corner rooks had 14 moves, but corner knights only have 2!</p>
     </div>
   )
@@ -115,7 +115,7 @@ export const knightCaptures: ChessBoardData = {
     <div className="space-y-3">
       <p><strong>Capturing:</strong> The knight can capture the black bishop on f6 or the black rook on c5.</p>
       <p>Knights capture exactly like they move - by jumping in an L-shape to the enemy piece.</p>
-      <p>The white pawn on d2 is safe because it's your own piece.</p>
+      <p>The white pawn on d2 is safe because it&apos;s your own piece.</p>
       <p><em>Knights can capture any enemy piece they can legally move to!</em></p>
     </div>
   )

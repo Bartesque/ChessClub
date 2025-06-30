@@ -1,4 +1,4 @@
-import { BookOpen, Lightbulb, Trophy, Clock as ClockIcon, UserCheck } from "lucide-react"
+import { BookOpen, Trophy, Clock as ClockIcon, UserCheck } from "lucide-react"
 import Link from "next/link"
 
 export default function CurriculumPage() {
@@ -21,7 +21,7 @@ export default function CurriculumPage() {
         </h2>
         <div className="space-y-4 text-muted-foreground">
           <p>
-            Chess is a game of thinking and strategy. Two players compete on a beautiful 64-square board,
+            Chess is a game of thinking and strategy. Two players compete on a 64-square board,
             each trying to checkmate their opponent&rsquo;s king. No luck involved - when you win,
             it&rsquo;s because you made better decisions and thought more clearly.
           </p>

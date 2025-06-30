@@ -68,7 +68,7 @@ export const pawnCaptures: ChessBoardData = {
   explanation: (
     <div className="space-y-3">
       <p><strong>Pawn captures:</strong> This pawn can capture the bishop on d5 or the rook on f5.</p>
-      <p>But it <em>cannot</em> capture the knight on e5 because that's directly in front!</p>
+      <p>But it <em>cannot</em> capture the knight on e5 because that&apos;s directly in front!</p>
       <p><strong>Remember:</strong> Pawns move forward, but capture diagonally forward.</p>
       <p>This unique rule makes pawn structure very important in chess strategy!</p>
     </div>

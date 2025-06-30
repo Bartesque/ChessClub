@@ -66,7 +66,7 @@ export const rookCaptures: ChessBoardData = {
   ],
   explanation: (
     <div className="space-y-3">
-      <p><strong>Capturing rule:</strong> The rook captures by moving to the enemy piece's square.</p>
+      <p><strong>Capturing rule:</strong> The rook captures by moving to the enemy piece&apos;s square.</p>
       <p>This rook can capture the black bishop on e7 or the black rook on h4.</p>
       <p><strong>Important:</strong> You cannot capture your own pieces! The white pawn at e2 is safe.</p>
       <p>When you capture, the enemy piece is <em>removed from the board forever</em>.</p>
@@ -88,7 +88,7 @@ export const rookInCorner: ChessBoardData = {
   explanation: (
     <div className="space-y-3">
       <p>Even in the corner, this rook still controls <strong>14 squares</strong>!</p>
-      <p><strong>Rook principle:</strong> A rook's power stays the same regardless of position (when unblocked).</p>
+      <p><strong>Rook principle:</strong> A rook&apos;s power stays the same regardless of position (when unblocked).</p>
       <p>This is different from the king - remember how the king was weaker in corners?</p>
       <p><em>Rooks are consistently powerful pieces everywhere on the board!</em></p>
     </div>

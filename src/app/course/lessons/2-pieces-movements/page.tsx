@@ -129,7 +129,7 @@ export default function Lesson01PieceMovements() {
             <li>Review each piece movement pattern until automatic</li>
             <li>Practice identifying possible moves from different positions</li>
             <li>Memorize piece values: Pawn=1, Knight/Bishop=3, Rook=5, Queen=9</li>
-            <li>Quiz yourself: "Where can this piece move from here?"</li>
+            <li>Quiz yourself: &quot;Where can this piece move from here?&quot;</li>
           </ul>
         </div>
       </section>

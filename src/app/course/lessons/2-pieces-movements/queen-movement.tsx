@@ -44,7 +44,7 @@ export const queenVersusRookAndBishop: ChessBoardData = {
       <p><strong>Amazing fact:</strong> This single queen controls 27 squares!</p>
       <p>The black rook on a8 controls 14 squares + the black bishop on h1 controls 7 squares = 21 total.</p>
       <p>So one queen is <em>more powerful</em> than a rook and bishop combined!</p>
-      <p><strong>Remember:</strong> With great power comes great responsibility - don't lose your queen!</p>
+      <p><strong>Remember:</strong> With great power comes great responsibility - don&apos;t lose your queen!</p>
     </div>
   )
 };
@@ -91,8 +91,8 @@ export const queenSafety: ChessBoardData = {
     <div className="space-y-3">
       <p><strong>Danger!</strong> This queen is under attack by three enemy pieces!</p>
       <p>The queen is worth about <strong>9 points</strong> - more than a rook (5) + bishop (3) + knight (3)!</p>
-      <p><strong>Golden rule:</strong> Always keep your queen safe. Don't bring her out too early.</p>
-      <p><em>"Don't bring your queen out early" - one of the most important opening principles!</em></p>
+      <p><strong>Golden rule:</strong> Always keep your queen safe. Don&apos;t bring her out too early.</p>
+      <p><em>&quot;Don&apos;t bring your queen out early&quot; - one of the most important opening principles!</em></p>
     </div>
   )
 };
