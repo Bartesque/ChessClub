@@ -21,29 +21,63 @@ export default function CurriculumPage() {
         </h2>
         <div className="space-y-4 text-muted-foreground">
           <p>
-            Chess is a game of thinking and strategy. Two players compete on a beautiful 64-square board, 
-            each trying to checkmate their opponent&rsquo;s king. No luck involved - when you win, 
+            Chess is a game of thinking and strategy. Two players compete on a beautiful 64-square board,
+            each trying to checkmate their opponent&rsquo;s king. No luck involved - when you win,
             it&rsquo;s because you made better decisions and thought more clearly.
           </p>
           <p>
             The goal is elegantly simple: Safely capture your opponent&rsquo;s king (called &ldquo;checkmate&rdquo;).
           </p>
-          <p>
-            What makes chess special: Pure mental challenge and creativity. Every move matters. Every game teaches you something new about thinking and planning.
-          </p>
         </div>
       </section>
 
-      {/* What Happens When You Play */}
+      {/* What Makes Chess Unique */}
       <section className="space-y-6">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Lightbulb className="w-5 h-5" /> What Happens When You Play?
-        </h2>
+        <h2 className="text-2xl font-bold">What Makes Chess Unique</h2>
         <div className="space-y-4 text-muted-foreground">
-          <p><strong>The Setup:</strong> 32 pieces on a checkered board, each with unique abilities</p>
-          <p><strong>The Challenge:</strong> Patterns emerge - clever moves and combinations create excitement</p>
-          <p><strong>The Journey:</strong> Positions develop, advantages shift, comebacks happen</p>
-          <p><strong>The Resolution:</strong> Checkmate, agreement to draw, or resignation - every game tells a story</p>
+          <h3 className="font-semibold">Pure Thinking Game</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>No dice - your brain makes all decisions</li>
+            <li>No hidden information - you see the entire position</li>
+            <li>No luck - the player who thinks better usually wins</li>
+            <li>Infinite possibilities - every game is different</li>
+          </ul>
+          
+          <h3 className="font-semibold">Skill-Based Competition</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Strategy matters - planning ahead gives advantages</li>
+            <li>Tactics count - clever moves win material</li>
+            <li>Learning never stops - even masters discover new ideas</li>
+            <li>Mistakes teach - every error helps you improve</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Chess is Like... */}
+      <section className="space-y-6">
+        <h2 className="text-2xl font-bold">Chess is Like...</h2>
+        <div className="space-y-4 text-muted-foreground">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🧩</span>
+            <div>
+              <h3 className="font-semibold">Being a Puzzle Solver</h3>
+              <p>Every position presents a new challenge to figure out. The better you become at solving these puzzles, the more enjoyable chess becomes.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🏃‍♂️</span>
+            <div>
+              <h3 className="font-semibold">Being a Coach</h3>
+              <p>You guide a team of pieces, each with special abilities. Good coaches think about what their opponent might do and plan accordingly.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🗺️</span>
+            <div>
+              <h3 className="font-semibold">Being an Explorer</h3>
+              <p>Every game takes you to new positions. You discover clever moves and brilliant ideas the more you play.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -95,12 +129,10 @@ export default function CurriculumPage() {
       <section className="text-center py-8">
         <h2 className="text-3xl font-bold mb-4">Ready to Begin Your Chess Journey?</h2>
         <p className="mb-6 max-w-2xl mx-auto">
-          This is where our systematic Russian Method course comes in. Instead of learning chess &ldquo;casually&rdquo; 
-          and developing bad habits, you&rsquo;ll build the strongest possible foundation from day one.
+          This is where our paractical course comes in. We&rsquo;ll help you learn chess &ldquo;casually&rdquo; 
+          and build a strong foundation from day one.
         </p>
-        <p className="mb-6 max-w-2xl mx-auto">
-          What makes our approach different: No shortcuts, perfect fundamentals, systematic progression that has produced champions for decades.
-        </p>
+      
         <Link
           href="/" 
           className="inline-block px-6 py-3 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors"
