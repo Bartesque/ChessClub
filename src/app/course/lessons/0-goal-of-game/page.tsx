@@ -13,10 +13,10 @@ export default function GoalOfGame() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">The Goal of Chess 🏆</h2>
           <p className="text-lg mb-4">
-            Chess has one simple, clear goal: <strong>Checkmate your opponent's king</strong>
+            Chess has one simple, clear goal: <strong>Checkmate your opponent&apos;s king</strong>
           </p>
           <p className="mb-4">
-            That's it! You don't need to capture all the pieces or get the most points. 
+            That&apos;s it! You don&apos;t need to capture all the pieces or get the most points. 
             You just need to safely capture one special piece - the king.
           </p>
         </section>
@@ -33,7 +33,7 @@ export default function GoalOfGame() {
             <li><strong>You win the game immediately!</strong></li>
           </ul>
           <p className="mb-4">
-            The word "Checkmate" comes from the Persian phrase "Shah Mat" meaning "the king is dead."
+            The word &quot;Checkmate&quot; comes from the Persian phrase &quot;Shah Mat&quot; meaning &quot;the king is dead.&quot;
           </p>
           <div className="my-6">
             <ChessBoard
@@ -89,7 +89,7 @@ export default function GoalOfGame() {
               <tbody>
                 <tr>
                   <td className="border px-4 py-2 font-medium">Chess</td>
-                  <td className="border px-4 py-2">A strategy game where two players try to checkmate each other's king</td>
+                  <td className="border px-4 py-2">A strategy game where two players try to checkmate each other&apos;s king</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2 font-medium">King</td>

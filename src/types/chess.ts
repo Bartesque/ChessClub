@@ -16,7 +16,7 @@ export interface ChessBoardData {
   description: string;
   explanation?: React.ReactNode;  // Rich explanation with JSX
   possibleMoves?: string[];       // Array of possible move squares
-  pathHighlight?: Record<string, any>; // Special path highlighting
+  pathHighlight?: Record<string, { color?: string; style?: string }>; // Special path highlighting
   captureSquares?: string[];      // Squares that can be captured
 }
 

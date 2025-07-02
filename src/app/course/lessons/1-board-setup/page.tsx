@@ -23,7 +23,7 @@ export default function WelcomeToChess() {
           <li>8 rows (called ranks) numbered 1 to 8</li>
           <li>8 columns (called files) labeled a to h</li>
           <li>Each square has a unique coordinate (like e4 or h7)</li>
-          <li>The board should be positioned with a light square in each player's right corner</li>
+          <li>The board should be positioned with a light square in each player&apos;s right corner</li>
         </ul>
       
     </div>

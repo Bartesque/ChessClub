@@ -10,7 +10,7 @@ export default function CoursePage() {
       <section className="space-y-6">
         <h2 className="text-2xl font-bold">Your Chess Journey Ahead</h2>
         <div className="space-y-4 text-muted-foreground">
-          <h3 className="font-semibold">What You'll Learn:</h3>
+          <h3 className="font-semibold">What You&apos;ll Learn:</h3>
           <ol className="list-decimal pl-6 space-y-2">
             <li><strong>Piece Movement</strong> - How each piece has unique powers</li>
             <li><strong>Tactical Patterns</strong> - Clever moves that win material</li>
